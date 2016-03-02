@@ -43,6 +43,7 @@ public class PractoLogger {
 
 
     private PractoLogger(Context context) throws IOException {
+
         logger = Logger.getLogger(LOG_TAG);
         File baseDir = context.getFilesDir();
         File logsDir = new File(baseDir, "PractoLogs");
